@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+     #gameDiv{
+        height: 300px;
+        width: 300px;
+        border: 1px solid black;
+        background-color: white;
+        padding: 50px;
+        text-align: center;
+     }
+   
+
+
+#scoreContainer
+{
+    border: 1px black solid;
+    background-color: white;
+    height: 150px;
+    width: 200px;
+    margin:30px;
+    text-align: center;
+}
+</style>
+
+</head>
+
+
+
+        
+       <div id="scoreContainer">
+              <p id = "cont">0</p>
+              
+       </div>
+
+
+
+ </div>
+
+ <script>
+  
+let text="";
+
+const miointervallo=setInterval(cambiacolore,1000);
+
+
+function cambiacolore() {
+    for (let i=0;i<1000;i++)
+   if (i%10==0)
+   {
+    <p><span style="text color:red"> text  += i </span> </p>;
+      
+    }
+   
+}
+  
+    if(cont == 1000)
+    {
+        document.getElementById("cont").innerText="Fine conteggio";
+    }
+
+
+
+
+ </script>  
+</body>
+</html>
